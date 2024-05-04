@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "mlflow-learn"
+version = "0.1.0"
+description = ""
+authors = ["tikendra"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "3.12.2"
+fastapi = "^0.110.1"
+pydantic = "^2.7.0"
+seaborn = "^0.13.2"
+flask = "^3.0.3"
+ipykernel = "^6.29.4"
+setuptools = "^69.5.0"
+mlflow = "2.11.0"
+scikit-learn = "^1.4.2"
+matplotlib = "^3.8.4"
+polars = "^0.20.21"
+pandas = "^2.2.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
