@@ -18,6 +18,8 @@ scikit-learn = "^1.4.2"
 matplotlib = "^3.8.4"
 polars = "^0.20.21"
 pandas = "^2.2.2"
+python-dotenv = "^1.0.1"
+rich = "^13.7.1"
 
 
 [build-system]
